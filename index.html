@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Aula 4</title>
+
+
+
+</head>
+    <body>
+        <center>
+            <h1>Nome de quem você quer morto</h1>
+            <h3>
+            <p>Nome: <input type="text" name="Nome" id="inome" placeholder="Nome Da Vitima"></p>
+            
+            <p>Sobrenome: <input type="text" name="Endereço" id="iSobrenome" placeholder="Sobrenome da vitima"></p>
+            </h3>
+            
+            <p><input type="submit" value="Enviar"></p>
+
+            <br><br>
+            
+            <h2> Contratante </h2>
+            
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <form action="main.js" method="get"></form>
+
+                <p><label for="inome">Nome: </label>
+                    <input type="text" name="inome" placeholder="Digite seu Nome" minlength="3" maxlength="30" required name="Nome">
+
+                </p>
+                
+                <p>
+                    <label for="iSobrenome">Sobrenome: </label>
+                    <input type="text" name="iSobrenome" placeholder="Digite seu Sobrenome" minlength="3" maxlength="30" required name="Sobrenome">
+  
+
+                </p>
+
+                <p>
+                    <label for="iData">Data de Nascimento: </label>
+                    <input type="date" name="iData" placeholder="Apenas Numero" minlength="5" maxlength="15" required name="Data De Nascimento">
+                    
+
+                </p>
+
+                <p>
+                    <label for="iemail">Email: </label>
+                    <input type="email" name="iemail" placeholder="Digite Seu Email" minlength="5" maxlength="30" required name="Email">
+                    
+
+                </p>
+
+                <p>
+                    <label for="iTelefone">Telefone: </label>
+                    <input type="tel" name="iemail" placeholder="Digite Seu Telefone" minlength="5" maxlength="30" required name="Telefone">
+                    
+
+                </p>
+
+
+                <br>
+                <p><h3>Pronto?
+                    <p><input type="submit" value="Aceitar, E Enviar"></p>
+                </h3>
+
+                </p>
+            
+            </fieldset>
+
+            </h2>
+        </center>
+    </body>
+</html>
